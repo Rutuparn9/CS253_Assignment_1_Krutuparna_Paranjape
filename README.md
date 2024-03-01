@@ -2,7 +2,7 @@
 
 The assignment implements a car rental system in C++ using object oriented programming paradigms. The code is present in main.cpp. There are 3 kinds of users and each of them have different functionalities and specifications. They are outlined in the Problem Statement. All functionalities of the statement have been implemented acccordingly. There are 3 csv files which serve as databases.
 
-[problem Statement]()
+[problem Statement](https://github.com/Rutuparn9/CS253_Assignment_1_Krutuparna_Paranjape/blob/main/Problem_Statement.pdf)
 
 
 - [all_users_data.csv](https://github.com/Rutuparn9/CS253_Assignment_1_Krutuparna_Paranjape/blob/main/all_users_data.csv) stores [name,id,password,type of user,user_record]. The type of user '1' is for customer, '2' is for employee and '3' is for manager. 
@@ -15,3 +15,10 @@ g++ main.cpp -o main
 .\main
 ```
 The system will run on the console. 
+
+Assumptions : 
+1) Every car is assumed to have been rented for 2 days.
+2) Fine of Rs500 is calculated everyday post the due date.
+3) Rental fee of every car is Rs 1000 / day.Employees can avail a 15% discount on this fee.
+4) Every customer and employee is assigned customer and employee record respectively.They can't rent cars more than their customer/employee record socres.
+
