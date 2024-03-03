@@ -18,9 +18,9 @@ g++ main.cpp -o main
 The system will run on the console. 
 
 __Assumptions__ : 
-1) Every car is assumed to have been rented for 2 day.
+1) Every car is assumed to have been rented for 2 days.
 2) Fine of Rs500 is calculated everyday post the due date.This fine is additional to the rental fee.
 3) Rental fee of every car is Rs 1000 / day.Employees can avail a 15% discount on this fee.
-4) Every customer and employee is assigned customer and employee record respectively.They can't rent cars more than their customer/employee record socres.
-5) Whenver a new customer/employee is added, he/she is assigned an avg customer/employee record.
+4) Every customer and employee is assigned a customer and employee record respectively.They can't rent cars more than their customer(or employee) record socres.
+5) Whenver a new customer(or employee) is added, he/she is assigned an avg customer(or employee) record.
 
