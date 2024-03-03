@@ -10,7 +10,8 @@ Database management has been done through c++ file handling.There are 3 csv file
 - [all_cars_data.csv](https://github.com/Rutuparn9/CS253_Assignment_1_Krutuparna_Paranjape/blob/main/all_cars_data.csv) stores the details of all cars in the format: [model_name,manufacturer,condition,serial_number, is_rented].```Codition``` stores the fields : 'new' and 'used'. The ```is_issued``` field is '1' if the car has been rented and zero otherwise. 
 - [rented_cars_data.csv](https://github.com/Rutuparn9/CS253_Assignment_1_Krutuparna_Paranjape/blob/main/rented_cars_data.csv) stores details of all rented cars in the format :  [user id,model,serail_number, timestamp]. The ```user id``` is the id of the user who rented the car and ```timestamp``` stores the time when the user rented it.<br>
 
-  __User Manual__
+<span style="font-size: larger;">__User Manual__</span>
+
 
 -To run the system, go to the directory where this repository is stored and type the following commands in the console:
 ```
