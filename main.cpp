@@ -562,7 +562,6 @@ void User :: clear_due(string id){
                 }
                 write_database(items,"all_cars_data.csv");
                 items.clear();
-                break;
             }
         }
     }
