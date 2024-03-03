@@ -2,7 +2,7 @@
 
 The assignment implements a Car Rental System in C++ using object oriented programming paradigms. The code is present in main.cpp. There are 3 kinds of users and each of them have different functionalities and specifications. They are outlined in the Problem Statement. All functionalities of the statement have been implemented acccordingly. 
 
-[problem Statement](https://github.com/Rutuparn9/CS253_Assignment_1_Krutuparna_Paranjape/blob/main/Problem_Statement.pdf)
+- [Problem Statement](https://github.com/Rutuparn9/CS253_Assignment_1_Krutuparna_Paranjape/blob/main/Problem_Statement.pdf)
 
 Database management has been done through c++ file handling.There are 3 csv files that serve as databases:
 
@@ -17,7 +17,7 @@ g++ main.cpp -o main
 ```
 The system will run on the console. 
 
-__Assumptions : 
+__Assumptions__ : 
 1) Every car is assumed to have been rented for 2 day.
 2) Fine of Rs500 is calculated everyday post the due date.This fine is additional to the rental fee.
 3) Rental fee of every car is Rs 1000 / day.Employees can avail a 15% discount on this fee.
